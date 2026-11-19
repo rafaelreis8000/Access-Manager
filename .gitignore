@@ -1,0 +1,37 @@
+
+# Compilação .NET
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Visual Studio Code
+.vscode/
+
+# Configurações locais e segredos
+.env
+.env.*
+!.env.example
+**/appsettings.*.local.json
+**/secrets*.json
+
+# Certificados e chaves privadas
+*.pfx
+*.p12
+*.key
+*.pem
+
+# Bancos de dados locais
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
